@@ -1,10 +1,21 @@
 .App {
   text-align: center;
+  position: relative;
 }
-
+.navBar{
+margin: 0px;
+}
+.home-app{
+  margin: 0px 15px 15px 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.social-contact{
+  background-color: aliceblue;
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {

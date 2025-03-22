@@ -1,0 +1,30 @@
+
+.about-tools{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    color: black
+}
+
+.about-tools .tool{
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 64px;
+    background-color: beige;
+    margin: 1rem;
+}
+
+.tool img{
+    width: 36px;
+    height: 36px;
+    margin: 20px;
+}
+.about-tools{
+    display: flex;
+    flex-direction: wrap;
+}

@@ -1,0 +1,19 @@
+.social{
+    margin-top: 182px;
+}
+.social-text p{
+    font-weight: 500;
+    color: red;
+}
+.social-links{
+    display: flex;
+}
+
+.social-links img{
+    width:32px;
+    height: 32px;
+}
+.social-links a{
+    margin: 20px;
+    margin-left: 30px;
+}

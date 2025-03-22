@@ -1,0 +1,54 @@
+.contact{
+
+}
+.contact h2{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    color:blue
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.form input{
+    width: 451px;
+    height: 31px;
+    border: 1px solid gray;
+    margin: 10px;
+    opacity: 1;
+}
+.form label{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    margin: 10px;
+
+}
+.text-area{
+    width: 449px;
+    height: 150px;
+    margin: 10px;
+}
+.form button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 42px;
+    background-color: #6366F1;
+    margin: 20px;
+    margin-left: 164px;
+    font-weight: bold;
+    color: white;
+    border: aliceblue;
+}
+.button-contact{
+    display: flex;
+}
+.button-contact p{
+    margin-left: 11px;
+    text-decoration: underline;
+}
