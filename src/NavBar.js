@@ -23,15 +23,19 @@ const NavBar = ({ scrollToSection }) => {
             boxShadow: isClicked[index] ? "0px 0px 10px 3px rgba(0, 0, 0)" : "",
           }}
         >
-          <a
+          <button
+           style={{
+            border: isClicked[index] ? "1px solid black" : "",
+            backgroundColor: isClicked[index] ? `cyan` : `white`,
+            boxShadow: isClicked[index] ? "0px 0px 10px 3px rgba(0, 0, 0)" : "",
+          }}
             onClick={(e) => {
               e.preventDefault();
               onClickFunc(index, menuItem);
             }}
-            href="#"
           >
             {menuItem}
-          </a>
+          </button>
         </div>
       ))}
     </div>

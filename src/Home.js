@@ -27,7 +27,7 @@ const Home = () => {
         setIndex(0); // Restart
       }, 1000); // Delay before restart
     }
-  }, [index]);
+  }, [index,curr]);
   return (
     <motion.div
       initial={{ y: -100, opacity: 0, scale: 0.5 }}
