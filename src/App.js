@@ -6,25 +6,23 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Social from "./Social";
-import { motion } from "framer-motion";
 
-import ThreeDImage from "./ThreeDImage";
 function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const serviceRef = useRef(null);
   const contactRef = useRef(null);
   function scrollToSection(item) {
-    if (item == "Home") {
+    if (item === "Home") {
       homeRef.current.scrollIntoView({ behavior: "smooth" });
     }
-    if (item == "About") {
+    if (item === "About") {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
     }
-    if (item == "Services") {
+    if (item === "Services") {
       serviceRef.current.scrollIntoView({ behavior: "smooth" });
     }
-    if (item == "Contact") {
+    if (item === "Contact") {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }

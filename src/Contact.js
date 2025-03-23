@@ -6,13 +6,13 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const handleChange = (e, label) => {
     const value = e.target.value;
-    if (label == "Name") {
+    if (label === "Name") {
       setNameLabel(value);
     }
-    if (label == "Email") {
+    if (label === "Email") {
       setEmail(value);
     }
-    if (label == "Message") {
+    if (label === "Message") {
       setMessage(value);
     }
   };
@@ -20,7 +20,6 @@ const Contact = () => {
   const mailToLink = `mailto:${recipientMailAdd}?subject=${encodeURIComponent(
     "New Contact Form Submission"
   )}`;
-  const submitHandler = () => {};
   return (
     <div class="contact">
       <h1>Contact</h1>

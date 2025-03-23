@@ -9,7 +9,6 @@ const Home = () => {
     "Backend Developer",
   ];
   const [curr, setCurr] = useState(0);
-  const [sentence, setSentence] = useState(sentenceList[0]);
 
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);

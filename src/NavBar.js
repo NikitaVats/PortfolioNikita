@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./NavBar.css";
 const NavBar = ({ scrollToSection }) => {
   const menu = ["Home", "About", "Services", "Contact"];
-  const count = 5;
   const fullArray = new Array(5).fill(false);
   const [isClicked, setIsClicked] = useState(new Array(5).fill(false));
   const onClickFunc = (index, menuItem) => {
@@ -29,6 +28,7 @@ const NavBar = ({ scrollToSection }) => {
               e.preventDefault();
               onClickFunc(index, menuItem);
             }}
+            href="#"
           >
             {menuItem}
           </a>
